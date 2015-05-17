@@ -12,7 +12,7 @@ public class Sorting {
  
 	public static void BubbleSort(long[] list) { //Compare every adjacent pair and switch if necessary
 		int length = list.length;
-		int i, j;
+		int i, j;//counting variables
 		long swap;
 		for(i = 0; i < length; i++){
 			for(j = 1; j < (length-i); j++){
